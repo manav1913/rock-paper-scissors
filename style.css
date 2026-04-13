@@ -11,7 +11,15 @@ body{
 
 h1{
      font-weight: bold;
-     color: black;
+     color: black; 
+     padding: 8px 14px;
+     border-radius: 12px;
+     background: rgba(255, 255, 255, 0.03);      
+     box-shadow: 
+        0 4px 15px rgba(0, 0, 0, 0.5),               
+        0 0 10px rgba(255, 255, 255, 0.1);         
+     color: #f9fafb;
+     margin-top: 15px;
     
 }
 
@@ -24,9 +32,8 @@ h1{
 
 
 .header{
-    margin-top: 20px;
-    margin-bottom: 38px;
-    border: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 6px;
     padding: 12px 18px;
 }
@@ -35,7 +42,7 @@ h1{
 .line{
     width: 60%;              
     height: 2px;
-    margin: 15px auto;       
+    margin: 10px auto;       
     background: linear-gradient(
         to right,
         transparent,
@@ -68,7 +75,8 @@ h1{
 }
 
 .result{
-    margin-bottom: 35px;
+ 
+    margin-bottom: 10px;
     font-size: 20px;
 }
 
@@ -84,7 +92,31 @@ h1{
     font-size: 15px;
 }
 
+.result, #score {
+  border: 1.5px solid rgba(255, 255, 255, 0.2);  
+  padding: 12px 18px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);      
+  box-shadow: 
+    0 4px 15px rgba(0, 0, 0, 0.5),               
+    0 0 10px rgba(255, 255, 255, 0.1);         
+  color: #f9fafb;
+  margin-top: 15px;
+}
 
+#score{
+
+    margin-top: -25px;
+    border: 1.5px solid rgba(255, 255, 255, 0.2);  
+    padding: 8px 14px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.03);      
+    box-shadow: 
+    0 4px 15px rgba(0, 0, 0, 0.5),               
+    0 0 10px rgba(255, 255, 255, 0.1);         
+    color: #f9fafb;
+    margin-top: 15px;
+}
 
 
 .reset{
@@ -92,7 +124,7 @@ h1{
     background-color: #FF5F00;
     border: none;
     padding: 9px 15px;
-    color: black;
+    color:white;
     font-weight: bold;
     border-radius: 8px;
     border: 2px solid #ffffff;
