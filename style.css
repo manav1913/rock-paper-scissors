@@ -6,7 +6,7 @@
 }
 
 body{
-     background: linear-gradient(135deg, #0f172a, #1e293b);
+     background-color: #FF5F00;
 }
 
 h1{
@@ -48,3 +48,20 @@ h1{
     color: white;
     margin-bottom: 35px;
 }
+
+
+.main{
+    display: flex;
+    gap: 60px;
+    cursor: pointer;
+}
+
+.main img{
+    width: 200px;
+    height: auto;
+
+   
+}
+
+
+
